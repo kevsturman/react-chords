@@ -78,8 +78,8 @@ const Barre = ({ barre, frets, capo, finger, lite }) => {
         <circle
           key={fret.position}
           strokeWidth='0.25'
-          stroke='#444'
-          fill='#444'
+          stroke='#dddd00'
+          fill='#dddd00'
           cx={getStringPosition(strings - fret.position, strings)}
           cy={positions.fret[fret.value]}
           r={4}
@@ -87,7 +87,7 @@ const Barre = ({ barre, frets, capo, finger, lite }) => {
         )
       }
       <rect
-        fill='#444'
+        fill='#dddd00'
         x={fretXPosition[strings][string1]}
         y={y}
         width={width}
